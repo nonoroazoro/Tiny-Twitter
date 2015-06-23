@@ -46,7 +46,7 @@
         margin: auto !important;
     }
 
-    .TweetTextSize:not(.TweetTextSize--26px):not(.TweetTextSize--28px)
+    .TweetTextSize
     {
         font-size: 16px !important;
         line-height: 20px !important;
