@@ -1,0 +1,55 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+@-moz-document domain("twitter.com")
+{
+    html, body
+    {
+        font-family: "Microsoft Yahei", Verdana, "Helvetica Neue", "BBAlpha Sans", "S60 Sans", Arial, sans-serif !important;
+    }
+
+    /* hide elements */
+    .bird-topbar-etched,
+    #page-container>.dashboard
+    {
+        display: none !important;
+    }
+
+    /********************* top bar - start ********************/
+    .global-nav-inner
+    {
+        background-color: #C0DEED;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .global-nav-inner>.container
+    {
+        width: auto !important;
+        min-width: 620px !important;
+        max-width: 620px !important;
+    }
+    /********************** top bar - end *********************/
+
+    /****************** content area - start ******************/
+    #page-container.wrapper,
+    #page-container.wrapper>.content-main,
+    #page-container.wrapper>.permalink-container
+    {
+        width: auto !important;
+        min-width: 620px !important;
+        max-width: 90% !important;
+    }
+
+    #page-container.wrapper>.content-main,
+    #page-container.wrapper>.permalink-container
+    {
+        float: none !important;
+        margin: auto !important;
+    }
+
+    .TweetTextSize:not(.TweetTextSize--26px):not(.TweetTextSize--28px)
+    {
+        font-size: 16px !important;
+        line-height: 20px !important;
+    }
+    /******************* content area - end ******************/
+}
